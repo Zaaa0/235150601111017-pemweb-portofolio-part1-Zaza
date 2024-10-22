@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaza Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="w-screen font-poppins overflow-x-hidden flex flex-col items-center m-0"
+  >
+    <!-- navbar -->
+    <nav
+      class="w-screen py-5 bg-natural justify-center fixed top-0 z-50 hidden xl:flex"
+    >
+      <div class="w-[90%] md:flex justify-between items-center hidden">
+        <h1 class="font-bold text-2xl">ZAZA</h1>
+        <div>
+          <ul class="flex gap-10">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="px-6 py-2 rounded-xl bg-light-cream hover:bg-sandy-beige">
+          <a
+            href="https://drive.google.com/file/d/17nx6u4-4I29IbpHT3GOkutCnu7bF3NhU/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CV</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- nav mobile tab -->
+    <div
+      class="w-full flex justify-end xl:hidden bg-transparent fixed top-5 right-5 z-50"
+    >
+      <button
+        title="nav"
+        id="menu-btn"
+        class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <div
+      id="menu"
+      class="w-48 flex z-50 justify-center flex-col xl:hidden bg-transparent fixed top-12 bg-white h-max right-5 p-4 gap-2"
+    >
+      <h1 class="font-bold text-2xl">ZAZA</h1>
+      <div class="flex flex-col w-full">
+        <a class="w-full h-full py-2 hover:bg-ungu" href="#">Home</a>
+        <a class="w-full h-full py-2 hover:bg-ungu" href="#about">About</a>
+        <a class="w-full h-full py-2 hover:bg-ungu" href="#experience"
+          >Experience</a
+        >
+        <a class="w-full h-full py-2 hover:bg-ungu" href="#hobby">Hobby</a>
+        <a class="w-full h-full py-2 hover:bg-ungu" href="#contact">Contact</a>
+      </div>
+      <div
+        class="px-6 py-2 rounded-xl flex justify-center bg-sandy-beige hover:bg-light-cream"
+      >
+        <a
+          href="https://drive.google.com/file/d/17nx6u4-4I29IbpHT3GOkutCnu7bF3NhU/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CV</a
+        >
+      </div>
+    </div>
+    <!-- isi -->
+    <main class="w-full h-full flex flex-col items-center">
+      <!-- home -->
+      <div
+        class="w-full md:min-h-[50vh] min-h-[80vh] xl:h-[95vh] bg-sandy-beige flex justify-center items-center"
+      >
+        <div
+          class="w-[90%] flex xl:flex-row flex-col justify-center items-center h-full md:h-screen xl:h-full xl:py-0 py-20 md:gap-0 gap-10"
+        >
+          <div
+            class="w-[80%] xl:w-[50%] h-full flex items-center justify-center"
+          >
+            <img
+              src="./assets/home.png"
+              alt=""
+              class="border-b-4 border-black"
+            />
+          </div>
+          <div
+            class="w-[80%] md:w-[70%] xl:w-[50%] h-full flex flex-col items-center text-center xl:text-start justify-center gap-8"
+          >
+            <h1 class="text-3xl md:text-6xl w-full">Olà! I'm ZAZA</h1>
+            <p class="text-xl md:text-4xl w-full">
+              this is my portfolio websiteଡ଼ ঌ 𖧧
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- about -->
+      <div
+        id="about"
+        class="w-full md:scroll-m-12 bg-light-cream h-full md:h-screen flex flex-col items-center justify-center"
+      >
+        <div
+          class="w-[70%] flex flex-col items-center justify-center gap-10 text-center py-10 md:py-0"
+        >
+          <h1 class="text-3xl md:text-4xl">About</h1>
+          <p class="text-sm md:text-xl">
+            Olá! i am Aisyah Nur Zahra (235150601111017) y'all can call me zaa
+            or zaza or smth up to you guys and i am currently pursuing my degree
+            in information technology education at Brawijaya University. As a
+            student, I am passionate about exploring the diverse aspects of
+            technology, from programming and data analysis to system
+            development. My studies have provided me with a solid understanding
+            of how technology shapes the modern world, and I am eager to
+            contribute to this dynamic field.
+            <br /><br />
+            Throughout my academic journey, I have participated in various
+            projects, enhancing my ability to think critically, collaborate
+            effectively, and apply my knowledge to practical situations. While I
+            am still working towards my graduation, I remain focused on gaining
+            more experience and expanding my skill set in preparation for future
+            challenges.
+            <br /><br />
+            Driven by curiosity and a love for learning, I believe that
+            persistence and adaptability are key to success in the ever-evolving
+            tech industry.
+            <br /><br />
+            "Success is not final, failure is not fatal: It is the courage to
+            continue that counts." – Winston Churchill
+          </p>
+        </div>
+      </div>
+      <!-- experince -->
+      <div
+        id="experience"
+        class="w-full bg-sandy-beige scroll-m-0 md:scroll-m-[170px] py-40 h-full flex flex-col items-center justify-center"
+      >
+        <div class="w-[70%] flex flex-col items-center justify-center gap-20">
+          <h1 class="text-4xl">Experince</h1>
+          <div class="grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-20">
+            <!-- pkkmb -->
+            <div
+              class="group hover:-rotate-0 [transform:rotate3d(1_,-1,_1,_15deg)] duration-500 overflow-hidden bg-gradient-to-bl from-light-cream via-sandy-beige to-natural p-6 rounded-lg hover:shadow-lg [box-shadow:12px_12px_0px_0px_#0d0d0d] backdrop-filter backdrop-blur-md border border-neutral-600"
+            >
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-3xl font-bold text-black">PKKMB & SA</h2>
+                  <p class="text-neutral-800">FILKOM</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="absolute -top-2 -right-2 w-12 h-12 stroke-yellow-300"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke=""
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="mt-4">
+                <p class="text-2xl font-bold text-black">PERKAP</p>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="mr-2 text-neutral-800">Feels Like</span>
+                  <span class="text-white">20°C</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Wind</span>
+                  <span class="text-white">10 km/h</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Humidity</span>
+                  <span class="text-white">75%</span>
+                </div>
+              </div>
+            </div>
+            <!-- debug -->
+            <div
+              class="group hover:-rotate-0 [transform:rotate3d(1_,-1,_1,_15deg)] duration-500 overflow-hidden bg-gradient-to-bl from-light-cream via-sandy-beige to-natural p-6 rounded-lg hover:shadow-lg [box-shadow:12px_12px_0px_0px_#0d0d0d] backdrop-filter backdrop-blur-md border border-neutral-600"
+            >
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-3xl font-bold text-black">DEBUG 2.0</h2>
+                  <p class="text-neutral-800">FILKOM</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="absolute -top-2 -right-2 w-12 h-12 stroke-yellow-300"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke=""
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="mt-4">
+                <p class="text-2xl font-bold text-black">DDM</p>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="mr-2 text-neutral-800">Feels Like</span>
+                  <span class="text-white">20°C</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Wind</span>
+                  <span class="text-white">10 km/h</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Humidity</span>
+                  <span class="text-white">75%</span>
+                </div>
+              </div>
+            </div>
+            <!-- ubsc -->
+            <div
+              class="group hover:-rotate-0 [transform:rotate3d(1_,-1,_1,_15deg)] duration-500 overflow-hidden bg-gradient-to-bl from-light-cream via-sandy-beige to-natural p-6 rounded-lg hover:shadow-lg [box-shadow:12px_12px_0px_0px_#0d0d0d] backdrop-filter backdrop-blur-md border border-neutral-600"
+            >
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-3xl font-bold text-black">UBSC</h2>
+                  <p class="text-neutral-800">UB</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="absolute -top-2 -right-2 w-12 h-12 stroke-yellow-300"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke=""
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="mt-4">
+                <p class="text-2xl font-bold text-black">Anggota</p>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="mr-2 text-neutral-800">Feels Like</span>
+                  <span class="text-white">20°C</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Wind</span>
+                  <span class="text-white">10 km/h</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Humidity</span>
+                  <span class="text-white">75%</span>
+                </div>
+              </div>
+            </div>
+            <!-- himaja -->
+            <div
+              class="group hover:-rotate-0 [transform:rotate3d(1_,-1,_1,_15deg)] duration-500 overflow-hidden bg-gradient-to-bl from-light-cream via-sandy-beige to-natural p-6 rounded-lg hover:shadow-lg [box-shadow:12px_12px_0px_0px_#0d0d0d] backdrop-filter backdrop-blur-md border border-neutral-600"
+            >
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-3xl font-bold text-black">HIMAJA</h2>
+                  <p class="text-neutral-800">UB</p>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48px"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="absolute -top-2 -right-2 w-12 h-12 stroke-yellow-300"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke=""
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="mt-4">
+                <p class="text-2xl font-bold text-black">Sekretaris</p>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="mr-2 text-neutral-800">Feels Like</span>
+                  <span class="text-white">20°C</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Wind</span>
+                  <span class="text-white">10 km/h</span>
+                </div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-neutral-800">Humidity</span>
+                  <span class="text-white">75%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hobby -->
+      <div
+        id="hobby"
+        class="w-full bg-light-cream scroll-m-40 md:scroll-m-36 xl:min-h-screen h-full py-20 flex flex-col items-center justify-center"
+      >
+        <div class="w-[70%] flex flex-col items-center justify-center gap-20">
+          <h1 class="text-4xl">Hobby</h1>
+
+          <div class="flex items-center justify-center w-full gap-5">
+            <img src="./assets/hobi.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- contact -->
+      <div
+        id="contact"
+        class="w-full md:scroll-m-20 bg-sandy-beige h-full xl:py-0 py-10 xl:h-[90vh] flex flex-col items-center justify-center"
+      >
+        <div
+          class="w-[70%] flex flex-col items-center justify-center gap-5 md:gap-20"
+        >
+          <h1 class="text-4xl">Contact</h1>
+          <div
+            class="flex xl:flex-row flex-col-reverse items-center justify-center w-full h-full xl:gap-0 gap-5"
+          >
+            <div
+              class="xl:w-[50%] md:w-[90%] w-full xl:p-10 h-full flex items-center justify-center"
+            >
+              <div
+                class="w-full h-96 bg-sandy-beige rounded shadow flex flex-col justify-between p-3"
+              >
+                <form
+                  id="contactForm"
+                  class="text-natural"
+                  action=""
+                  method="post"
+                >
+                  <fieldset class="border-4 border-dotted border-natural p-5">
+                    <legend class="px-2 italic -mx-2">Holla again!</legend>
+                    <label
+                      class="text-xs font-bold after:content-['*'] after:text-red-400"
+                      for="name"
+                      >Nama
+                    </label>
+                    <input
+                      title="name"
+                      class="w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-natural"
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label
+                      class="text-xs font-bold after:content-['*'] after:text-red-400"
+                      for="message"
+                      >Message
+                    </label>
+                    <textarea
+                      class="w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-natural"
+                      id="message"
+                      name="message"
+                      rows="4"
+                      placeholder="Your Message"
+                      required
+                    ></textarea>
+                    <button
+                      type="submit"
+                      class="w-full rounded bg-natural text-indigo-50 p-2 text-center font-bold hover:bg-indigo-400"
+                    >
+                      kirim
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div
+              class="xl:w-[50%] w-full py-10 h-full flex flex-col items-center justify-center rounded-2xl bg-ungu gap-10"
+            >
+              <div class="flex xl:gap-20 gap-10">
+                <div class="group relative inline-block">
+                  <button title="ig" class="focus:outline-none">
+                    <svg
+                      viewBox="0 0 16 16"
+                      class="bi bi-instagram transform transition-transform duration-300 hover:scale-125 hover:text-blue-500"
+                      fill="currentColor"
+                      height="40"
+                      width="40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                      ></path>
+                    </svg>
+                  </button>
+                  <span
+                    class="absolute -top-14 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-white bg-gray-900 rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100"
+                    >@syaahh_za</span
+                  >
+                </div>
+                <div class="group relative inline-block">
+                  <button title="email" class="focus:outline-none">
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="bi bi-envelope transform transition-transform duration-300 hover:scale-125 hover:text-blue-500"
+                      fill="currentColor"
+                      height="45"
+                      width="45"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4 4h16c1.104 0 2 .896 2 2v12c0 1.104-.896 2-2 2H4c-1.104 0-2-.896-2-2V6c0-1.104.896-2 2-2zm16 2H4v12h16V6zm-8 5l-8-5h16l-8 5zm0 2l8-5v10H4V8l8 5z"
+                      />
+                    </svg>
+                  </button>
+                  <span
+                    class="absolute -top-14 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-white bg-gray-900 rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100"
+                    >aisyahnzahra13@gmail.com</span
+                  >
+                </div>
+              </div>
+              <aside
+                class="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono"
+              >
+                <div class="flex justify-between items-center">
+                  <div class="flex space-x-2 text-red-500">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                  </div>
+                  <p class="text-sm">bash</p>
+                </div>
+                <div class="mt-4">
+                  <p class="text-green-400">$ npm install zaza</p>
+                  <p class="text-white">+ zaza-nieh</p>
+                  <p class="text-white flex">
+                    <span class="text-green-400 mr-2">$ </span>
+                    echo "you didn't go through all that for nothing"
+                  </p>
+                </div>
+              </aside>
+              <p class="text-center font-medium text-xl">" "</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="w-full flex justify-center bg-natural py-5">
+      &copy; Copyright by ZAZA | 2024
+    </footer>
+
+    <!-- js untuk kirim pesan lewat email -->
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const message = document.getElementById("message").value;
+
+          const email = "aisyahnzahra13@gmail.com";
+          const subject = "Pesan untuk ZAZA";
+          const body = `Name: ${name}
+           Message: ${message}`;
+
+          window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+            subject
+          )}&body=${encodeURIComponent(body)}`;
+        });
+    </script>
+
+    <!-- js untuk toggle navbar mobile -->
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+
+      menu.classList.add("hidden");
+
+      menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
